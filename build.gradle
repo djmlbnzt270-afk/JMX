@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'dz.gov.trafficlaw2609'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "dz.gov.trafficlaw2609"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "2.6.09"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
